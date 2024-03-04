@@ -1,0 +1,271 @@
+[08-Apr-2022 06:25:24 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:24 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:25 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:29 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:33 UTC] PHP Warning:  require(/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 06:25:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/ciptaprocpanel/public_html/sudama-api/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/index.php on line 34
+[08-Apr-2022 13:27:08 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:21
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(21): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/v...', '/home/ciptaproc...', 21, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(21): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illuminat in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 21
+[08-Apr-2022 13:27:08 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 21
+[21-Jun-2022 14:18:49 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require(/home/ciptaprocpanel/public_html/-api/vendor/phpmailer/phpmailer/src/Exception.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:25
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(25): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/c...', '/home/ciptaproc...', 25, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(25): require()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_ht in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 25
+[21-Jun-2022 14:18:49 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '/home/ciptaprocpanel/public_html/-api/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 25
+[29-Mar-2023 04:58:27 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 04:58:27 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:43 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:43 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:58 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:00:58 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:01:48 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/ciptaprocpanel/public_html/sudama-api/vendor/laravel/framework/src/Illumin in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[29-Mar-2023 05:01:48 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/sudama-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:17:32 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:17:32 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:19:38 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:19:38 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:23:44 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:23:44 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:23:54 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:23:54 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:24:55 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:24:55 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:18 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:18 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:36 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:36 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:47 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:25:47 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:26:29 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:26:29 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:27:55 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:27:55 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:28:16 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:28:16 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:47:21 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:47:21 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:47:40 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:47:40 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:49:55 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:49:55 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:50:03 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 10:50:03 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 11:21:13 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 11:21:13 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:10 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:10 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:22 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:22 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:22 Asia/Bangkok] PHP Warning:  Uncaught ErrorException: require_once(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php:22
+Stack trace:
+#0 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/ciptaproc...', 22, Array)
+#1 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php(22): require_once()
+#2 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(571): include('/home/ciptaproc...')
+#3 /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile('/home/ciptaproc...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...')
+#5 [internal function]: spl_autoload_call('App\\Http\\Contro...')
+#6 /home/cipt in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 12:55:22 Asia/Bangkok] PHP Fatal error:  main(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/app/Http/Controllers/AuthController.php on line 22
+[20-Oct-2023 13:14:22 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:14:32 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:16:47 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:17:03 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:19:10 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:19:32 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:23:14 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:24:01 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:33:59 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:36:03 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:36:35 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:55:18 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
+[20-Oct-2023 13:56:06 Asia/Bangkok] PHP Fatal error:  Cannot redeclare composerRequire55890f42a66b5757da3d043fcfe53669() (previously declared in /home/ciptaprocpanel/public_html/kopkar-menjanganenam-api/vendor/composer/autoload_real.php:68) in /home/ciptaprocpanel/public_html/sudama-api/vendor/composer/autoload_real.php on line 75
